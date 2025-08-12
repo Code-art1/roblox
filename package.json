@@ -1,0 +1,74 @@
+{
+  "name": "ultimate-roblox-hub",
+  "version": "3.0.1",
+  "description": "The most advanced and professional Roblox script hub with modern UI and powerful features",
+  "main": "roblox_ultimate_script.lua",
+  "scripts": {
+    "lint": "luacheck src/ --std=roblox --ignore=111 --ignore=112 --ignore=113",
+    "test": "lua -l roblox_ultimate_script.lua",
+    "build": "node scripts/build.js",
+    "release": "node scripts/release.js",
+    "docs": "node scripts/generate-docs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ultimate-team/roblox-hub.git"
+  },
+  "keywords": [
+    "roblox",
+    "script",
+    "hub",
+    "aimbot",
+    "esp",
+    "cheat",
+    "hack",
+    "gaming",
+    "lua",
+    "exploit"
+  ],
+  "author": {
+    "name": "Ultimate Team",
+    "email": "team@ultimatehub.dev",
+    "url": "https://ultimatehub.dev"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ultimate-team/roblox-hub/issues"
+  },
+  "homepage": "https://github.com/ultimate-team/roblox-hub#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "luacheck": "^0.25.0"
+  },
+  "config": {
+    "version": "3.0.1",
+    "build": "2024.12.15",
+    "minLuaVersion": "5.1"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/ultimate-team"
+  },
+  "contributors": [
+    {
+      "name": "Ultimate Team",
+      "email": "team@ultimatehub.dev",
+      "role": "Lead Developer"
+    }
+  ],
+  "directories": {
+    "lib": "src",
+    "doc": "docs",
+    "example": "examples"
+  },
+  "files": [
+    "src/",
+    "roblox_ultimate_script.lua",
+    "loader.lua",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ]
+}
